@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yo"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_bold_italic"
+        android:shadowColor="#40000000"
+        android:text="The game"
+        android:textAlignment="center"
+        android:textColor="#B0195BBE"
+        android:textSize="56sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.08"
+        app:lineHeight="66sp" />
+
+    <EditText
+        android:id="@+id/edtNom"
+        android:layout_width="316.88dp"
+        android:layout_height="47.98dp"
+        android:ems="10"
+        android:fontFamily="@font/roboto_bold_italic"
+        android:hint="Ingrese nombre"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.361"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.269" />
+
+    <EditText
+        android:id="@+id/edtApellido"
+        android:layout_width="316.88dp"
+        android:layout_height="47.98dp"
+        android:ems="10"
+        android:fontFamily="@font/roboto_bold_italic"
+        android:hint="Ingrese apellido"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.361"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.371" />
+
+    <Button
+        android:id="@+id/btnTest"
+        android:layout_width="184dp"
+        android:layout_height="51dp"
+        android:background="#CDCDCD"
+        android:backgroundTint="#70BDD6"
+        android:fontFamily="@font/roboto_bold_italic"
+        android:text="Jugar"
+        app:cornerRadius="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.586" />
+
+    <Button
+        android:id="@+id/btnRes"
+        android:layout_width="184dp"
+        android:layout_height="51dp"
+        android:background="#70BDD6"
+        android:backgroundTint="#70BDD6"
+        android:text="Resultado"
+        app:cornerRadius="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.929"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.586" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

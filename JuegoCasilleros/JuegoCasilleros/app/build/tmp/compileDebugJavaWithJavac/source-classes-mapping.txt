@@ -1,0 +1,18 @@
+com/MatiasBesmedrsinik/dai/juegocasilleros/claases/Session.java
+ com.MatiasBesmedrsinik.dai.juegocasilleros.claases.Session
+com/MatiasBesmedrsinik/dai/juegocasilleros/BuildConfig.java
+ com.MatiasBesmedrsinik.dai.juegocasilleros.BuildConfig
+com/MatiasBesmedrsinik/dai/juegocasilleros/claases/toastes.java
+ com.MatiasBesmedrsinik.dai.juegocasilleros.claases.toastes
+com/MatiasBesmedrsinik/dai/juegocasilleros/ResultadoActivity.java
+ com.MatiasBesmedrsinik.dai.juegocasilleros.ResultadoActivity
+ com.MatiasBesmedrsinik.dai.juegocasilleros.ResultadoActivity$1
+com/MatiasBesmedrsinik/dai/juegocasilleros/MainActivity.java
+ com.MatiasBesmedrsinik.dai.juegocasilleros.MainActivity
+ com.MatiasBesmedrsinik.dai.juegocasilleros.MainActivity$1
+ com.MatiasBesmedrsinik.dai.juegocasilleros.MainActivity$2
+com/MatiasBesmedrsinik/dai/juegocasilleros/JuegoActivity.java
+ com.MatiasBesmedrsinik.dai.juegocasilleros.JuegoActivity
+ com.MatiasBesmedrsinik.dai.juegocasilleros.JuegoActivity$1
+ com.MatiasBesmedrsinik.dai.juegocasilleros.JuegoActivity$2
+ com.MatiasBesmedrsinik.dai.juegocasilleros.JuegoActivity$3
